@@ -401,7 +401,7 @@ public Frame(int rows,int columns) {
 				}else {
 					end_point=columns_counter+1;
 				}
-				System.out.println("prev_row:"+prev_row+";\tnext_row:"+next_row+";\tstart_point:"+start_point+";\tend_point:"+end_point);
+				//System.out.println("prev_row:"+prev_row+";\tnext_row:"+next_row+";\tstart_point:"+start_point+";\tend_point:"+end_point);
 				for(int x=start_point;x!=end_point+1;x++) {
 					if(x==columns) {
 						x=-1;
